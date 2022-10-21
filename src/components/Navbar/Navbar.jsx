@@ -47,7 +47,7 @@ export default function Navbar() {
   return (
       <nav>
         <div className="nav_left">
-          <div className="icon responsive_icon"><a href="/">SF</a></div>
+          <div className="icon responsive_icon"><a href="/project_portfolio">SF</a></div>
           <button onClick={toggleNav} className="btn">
             <MdOutlineMenu style={style}/>
           </button> 
