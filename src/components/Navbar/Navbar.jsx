@@ -55,10 +55,10 @@ export default function Navbar() {
         <div className="nav_right">
           {((toggleMenu || screenWidth > 1000) && (
           <ul className="list">
-            <li className="items"><a href="/project/1">Blogging Site</a></li>
-            <li className="items"><a href="/project/2">Project Portfolio</a></li>
-            <li className="items"><a href="/project/3">Mirror App</a></li>
-            <li className="items"><a href="/project/4">Academic Matching System</a></li>
+            <li className="items"><a href="/project_portfolio/project/1">Blogging Site</a></li>
+            <li className="items"><a href="/project_portfolio/project/2">Project Portfolio</a></li>
+            <li className="items"><a href="/project_portfolio/project/3">Mirror App</a></li>
+            <li className="items"><a href="/project_portfolio/project/4">Academic Matching System</a></li>
           </ul>)
           )}
         </div>

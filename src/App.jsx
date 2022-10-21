@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/project_portfolio" element={<Home />} />
-      <Route path="project" element={<ProjectDetail/>} >
+      <Route exact path="/project_portfolio/project" element={<ProjectDetail/>} >
         <Route path=":id" element={<ProjectDetail/>}></Route>
       </Route>
     </Routes>
