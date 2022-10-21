@@ -1,0 +1,10 @@
+#Footer{
+    background: var(--color-bg2-color);
+    color: var(--font-color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0;
+}
+

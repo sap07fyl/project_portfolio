@@ -1,0 +1,31 @@
+#ProjectInfo{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 15%;
+}
+
+.ProjectInfo_Right{
+  width: 30%;
+}
+
+.ProjectInfo_Left{
+  width: 70%;
+}
+
+@media screen and (max-width: 1400px){
+  #ProjectInfo{
+    padding: 50px 5%;
+  }  
+}
+
+@media screen and (max-width: 1300px){
+  #ProjectInfo{
+    flex-direction: column;
+    padding: 20px 8%;
+  }
+
+  .ProjectInfo_Right, .ProjectInfo_Left{
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,26 @@
+#Previewbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.PreviewbuttonTitle{
+    font-size: 30px;
+    font-weight: 600;
+    background: var(--color-bg1-color);
+    text-align: center;
+    color: var(--primary-white);
+    padding: 30px 8%;
+    border-radius: 30px;
+    /* margin: 40px auto 0; */
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 700px){
+    .PreviewbuttonTitle{
+        font-size: 25px;
+        padding: 20px 8%;
+
+    }
+  }

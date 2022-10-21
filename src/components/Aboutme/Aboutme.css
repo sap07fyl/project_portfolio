@@ -1,0 +1,10 @@
+.white_svg{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#Aboutme{
+    background-color: var(--color-bg1-color);
+}

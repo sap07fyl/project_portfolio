@@ -1,0 +1,138 @@
+nav {
+    top: 0;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background-color: var(--primary-white);
+    padding: 30px 0;
+}
+
+.nav_left, .nav_right{
+    display: flex;
+    align-items: center;
+}
+
+.nav_left{
+    padding-left: 5%;
+}
+
+.btn1 {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.responsive_icon{
+    height: 100%;
+}
+
+.icon a{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    display: none;
+    position: relative;
+    right: 10px;
+    padding: 5px;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav_right{
+    padding-right: 5%;
+}
+
+.list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 25px;
+}
+
+.items{
+    padding: 10px 0;
+}
+
+.items a{
+    margin-left: 28px;
+    font-size: 16px;
+    color: #727983;
+    cursor: pointer;
+}
+
+.items a:hover{
+    color: #000;
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .nav_left, .nav_right, .items{
+        width: 100%;
+    }
+
+    .nav_left{
+        border-bottom: 1px solid var(--color-bg2-color) ;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    .icon a{
+        font-size: 25px;
+    }
+
+    .nav_right{
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .nav_right ul{
+        display: flex;
+        background-color: var(--color-bg2-color);
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .items{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .items a{
+        display: flex;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    .items{
+        border-top: 2px solid rgba(255, 255, 255, 0.555) ;
+    }
+}

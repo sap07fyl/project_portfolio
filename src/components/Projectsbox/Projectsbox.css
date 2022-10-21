@@ -1,0 +1,88 @@
+.Projectsbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  margin-bottom: 15px;
+  box-shadow: 3px 4px 18px #00000026;
+  border-radius: 10px;
+
+}
+
+.ProjectsboxImage{
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.Projectsbox img{
+  width: 100%;
+  height: 100%;
+}
+
+a.Projectsbox:hover .ProjectsboxImage img{
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+
+.ProjectsboxTitle{
+  width: 100%;
+  font-size: 23px;
+  padding-bottom: 25px;
+  background-color: var(--color-bg2-color);
+  border-radius: 0 0 10px 10px;
+}
+
+a.Projectsbox:hover .ProjectsboxTitle{
+  transition: 0.5s;
+  background-color: var(--color-bg1-color);
+}
+
+.language, .title{
+  display: flex;
+  justify-content: center;
+}
+
+.language{
+  font-size: 18px;
+  padding: 15px 0;
+  color: var(--font-color2);
+}
+
+a.Projectsbox:hover .language{
+  transition: 0.5s;
+  color: var(--color-bg2-color);
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+a.Projectsbox:hover .title{
+  transition: 0.5s;
+  color: var(--primary-white);
+}
+  /* ******************************************************************************************** */
+@media screen and (max-width: 1200px){
+  .Projectsbox{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .Projectsbox{
+    width: 80%;
+  }
+}
+/* ******************************************************************************************** */
+@media screen and (max-width: 600px){
+  .language{
+    font-size: 15px;
+  }
+  
+}

@@ -1,0 +1,68 @@
+#Projects{
+    /* background: var(--color-bg2-color); */
+    background-image: url(../../images/process-bg-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Projectsboxs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.catagories{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.catagories button{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 22px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    text-transform:uppercase;
+    -webkit-box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.75);
+}
+
+.catagories .buttonEnable{
+    background: var(--color-bg1-color);
+}
+
+.catagories .buttonDisable{
+    background: transparent;
+    color: var(--primary-black);
+}
+  /* ******************************************************************************************** */
+@media screen and (max-width: 1024px){
+    .Projectsboxs{
+        flex-direction: column;
+    }
+
+    .catagories{
+        width: 100%;
+    }
+}
+/* ******************************************************************************************** */
+@media screen and (max-width: 700px){
+    .catagories{
+        flex-direction: column;
+    }
+
+    .catagories button{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 18px 20px;
+    }
+}

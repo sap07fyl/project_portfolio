@@ -1,0 +1,21 @@
+#Banner{
+    background: var(--color-bg1-color);
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary-white);
+    padding: 40px 8%;
+}
+
+.bannerTitle{
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 600px){
+    #Banner{
+        font-size: 30px;
+    }
+
+    .bannerTitle{
+        padding: 0;
+    }
+  }
