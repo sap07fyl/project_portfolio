@@ -5,7 +5,7 @@ const Projectsbox = (props) => {
   const images = props.images
   const language = props.language
   const title = props.title
-  const link = "/project_portfolio/project/"+props.id
+  const link = "/project_portfolio/#/project/"+props.id
 
   return (
       <a href={link} className='Projectsbox'>

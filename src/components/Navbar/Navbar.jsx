@@ -47,7 +47,7 @@ export default function Navbar() {
   return (
       <nav>
         <div className="nav_left">
-          <div className="icon responsive_icon"><a href="/project_portfolio">SF</a></div>
+          <div className="icon responsive_icon"><a href="/project_portfolio/#">SF</a></div>
           <button onClick={toggleNav} className="btn">
             <MdOutlineMenu style={style}/>
           </button> 
@@ -55,10 +55,10 @@ export default function Navbar() {
         <div className="nav_right">
           {((toggleMenu || screenWidth > 1000) && (
           <ul className="list">
-            <li className="items"><a href="/project_portfolio/project/1">Blogging Site</a></li>
-            <li className="items"><a href="/project_portfolio/project/2">Project Portfolio</a></li>
-            <li className="items"><a href="/project_portfolio/project/3">Mirror App</a></li>
-            <li className="items"><a href="/project_portfolio/project/4">Academic Matching System</a></li>
+            <li className="items"><a href="/project_portfolio/#/project/1">Blogging Site</a></li>
+            <li className="items"><a href="/project_portfolio/#/project/2">Project Portfolio</a></li>
+            <li className="items"><a href="/project_portfolio/#/project/3">Mirror App</a></li>
+            <li className="items"><a href="/project_portfolio/#/project/4">Academic Matching System</a></li>
           </ul>)
           )}
         </div>
