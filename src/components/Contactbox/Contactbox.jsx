@@ -7,19 +7,56 @@ const Contactbox = (props) => {
   const info = props.info
   const icon = props.icon
 
-  return (
-    <a href={link} className='Contactbox' target="_blank" rel="noreferrer">
-      <div className='dot'>
-        {icon}
-      </div>
+  function displayContactBox(){
+    if (link != ''){
+      return(
+        <a href={link} className='Contactbox' target="_blank" rel="noreferrer">
+        <div className='dot'>
+          {icon}
+        </div>
+  
+        <div className="ContactboxTitle">
+          {title}
+        </div>
+        <div className="Contactboxinfo">
+          <a href={link}>{info}</a>
+        </div>
+      </a>
+      )
+    }
 
-      <div className="ContactboxTitle">
-        {title}
-      </div>
-      <div className="Contactboxinfo">
-        <a href={link}>{info}</a>
-      </div>
-    </a>
+    else{
+      return(
+        <div className='Contactbox'>
+          <div className='dot'>
+            {icon}
+          </div>
+
+          <div className="ContactboxTitle">
+            {title}
+          </div>
+          <div className="Contactboxinfo">
+            <p>{info}</p>
+          </div>
+        </div>
+      )
+    }
+  }
+
+  return (
+    displayContactBox()
+    // <a href={link} className='Contactbox' target="_blank" rel="noreferrer">
+    //   <div className='dot'>
+    //     {icon}
+    //   </div>
+
+    //   <div className="ContactboxTitle">
+    //     {title}
+    //   </div>
+    //   <div className="Contactboxinfo">
+    //     <a href={link}>{info}</a>
+    //   </div>
+    // </a>
   )
 }
 

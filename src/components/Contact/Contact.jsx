@@ -18,15 +18,15 @@ const Contact = () => {
 
     {
       title: 'Call Now',
-      link: 'mailto:sunnyfungwork@gmail.com',
-      info: '12345678',
+      link: '',
+      info: '93304549',
       icon: <BsTelephone className='Contactbox_icon'/>
     },
 
     {
       title: 'Whatsapp Me',
-      link: "https://wa.me/85212345678?text=Hello",
-      info: '12345678',
+      link: "https://wa.me/85293304549?text=Hello!I got some questions!",
+      info: '93304549',
       icon: <BsWhatsapp className='Contactbox_icon'/>
     }
   ];

@@ -21,7 +21,7 @@ export const Project_data=[
             id: 2,
             language: 'React',
             title: 'Project Portfolio',
-            link: 'https://sap07fyl.github.io/',   //need change
+            link: 'https://sap07fyl.github.io/project_portfolio/#',
             category: 'Web Project',
             period: "Sept 2022",
             objective: 'Create a project portfolio to introduce my programming-related projects using React. ',
@@ -32,7 +32,7 @@ export const Project_data=[
                 'Contact information'
             ],
             images: require('../../images/portfolio.png'),
-            qr_code: require('../../images/blog_demo.png'), //need change
+            qr_code: require('../../images/projectportfolio_demo.png'),
         }
     ],
 

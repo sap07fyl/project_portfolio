@@ -37,7 +37,7 @@
     margin-bottom: 30px;
 }
 
-.Contactboxinfo a{
+.Contactboxinfo a, .Contactboxinfo p{
     color: var(--font-color1);
     font-size: 18px;
 }
