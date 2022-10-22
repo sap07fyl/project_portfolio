@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from './screens/Home/Home';
 import ProjectDetail from './screens/ProjectDetail/ProjectDetail';
+import NotFound from './screens/NotFound/NotFound';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Route path="/project" >
         <Route path=":id" element={<ProjectDetail/>}></Route>
       </Route>
+      <Route path='*' element={<NotFound/>}/>
     </Routes>
   );
 }

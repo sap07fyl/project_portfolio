@@ -1,0 +1,16 @@
+.NotFound{
+    
+}
+
+.NotFound h1{
+    font-size: 70px;
+    margin: auto;
+}
+
+.errormessageContainer{
+    min-height: 75vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
