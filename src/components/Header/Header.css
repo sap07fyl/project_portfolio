@@ -57,11 +57,17 @@
   }
 
   .header-left h2{
-      margin-bottom: 80px;
+    margin-top: 25px;
+    margin-bottom: 80px;
   }
 }
 /* ******************************************************************************************** */
 @media screen and (max-width: 600px){
+    #Header{
+        padding: 0;
+        min-height: 60vh;
+    }
+
     .header-left{
         width: 100%;
         padding-left: 50px;
@@ -69,3 +75,12 @@
       }
 }
 
+@media screen and (max-width: 400px){
+    .header-left h2{
+        font-size: 45px;
+    }
+
+    .header-left p {
+        font-size: 20px;
+    }
+}

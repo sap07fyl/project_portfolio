@@ -57,6 +57,7 @@ a.Projectsbox:hover .language{
 .title{
   font-size: 25px;
   font-weight: 600;
+  text-align: center;
 }
 
 a.Projectsbox:hover .title{
